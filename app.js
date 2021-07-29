@@ -4,9 +4,11 @@ const port = 3030;
 const path = require('path');
 
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', 'home.html')))
+app.get('/about', (req,res) => res.sendFile(path.join(__dirname, 'views', 'about.html')))
+app.get('/contact', (req,res) => res.sendFile(path.join(__dirname, 'views', 'contact.html')))
+app.get('/music', (req,res) => res.sendFile(path.join(__dirname, 'views', 'music.html')))
 
-
-app.listen(port, () => console.log('Servidor corriendo en el puerto ' + port))
+app.listen(port, () => console.log('Servidor corriendo en http://localhost:' + port))
