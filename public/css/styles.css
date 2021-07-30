@@ -1,0 +1,5 @@
+@import url('./home.css');
+@import url('./music.css');
+@import url('./contact.css');
+@import url('./about.css');
+/* @import => ponemos a styles.css como punto de referencia para los otros styles */
