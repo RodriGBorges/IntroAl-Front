@@ -1,0 +1,24 @@
+body.home{
+    background-image: url('/images/emilia-home.jpg');
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: right -120px;
+}
+/* le damos la imagen de fondo a la vista home especificando con body class="home" */
+.home h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Work Sans' , sans-serif;
+    margin-top: 180px;
+    margin-bottom: 240px;
+    line-height: 36px;
+    letter-spacing: 5px;
+    margin-left: 60px;
+}
+/* Le especifico que quiero modificar del home solo el h2 */
+.home h1{
+    text-transform: uppercase;
+    font-size: 92px;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(255, 255, 255, .5);
+}
