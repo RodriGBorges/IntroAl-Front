@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Work+Sans&display&family=Raleway:wght@500&display=swap');
 
 /* font-family: 'Open Sans', sans-serif;
 
@@ -20,4 +20,10 @@ a{
 }
 li{
 list-style: none;
+}
+
+.titulo{
+    text-transform: uppercase;
+    font-size: 65px;
+    font-family: 'Raleway', sans-serif;
 }

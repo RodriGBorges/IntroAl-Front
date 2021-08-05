@@ -22,3 +22,8 @@ body.home{
     font-family: 'Raleway', sans-serif;
     background-color: rgba(255, 255, 255, .5);
 }
+.about h1{
+    text-transform: uppercase;
+    font-size: 65px;
+    font-family: 'Raleway', sans-serif;
+}

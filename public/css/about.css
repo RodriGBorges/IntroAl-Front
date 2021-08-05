@@ -1,0 +1,25 @@
+body.about{
+    background-image: url('/images/emilia-about.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 82.3%;
+}
+.about section{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.about h3{
+    color: #249180;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500 ;
+}
+.about p{
+    color: #44a391;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about section article p{
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
